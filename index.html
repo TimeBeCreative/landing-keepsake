@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Keepsake is an independent creative studio building thoughtful brands, digital experiences and print.">
+    <title>Keepsake — Independent Creative Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans:wght@300;400;700&family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+        <div class="header-inner container">
+            <a class="brand" href="#top" aria-label="Keepsake home"><span class="brand-mark">K</span><span class="brand-name">keepsake</span></a>
+            <nav class="desktop-nav" aria-label="Main navigation">
+                <a class="is-active" href="#works">Works</a><a href="#about">About</a><a href="#services">Services</a><a href="#journal">Journal</a><a href="#contact">Contact</a>
+                <a class="favourites" href="#works" aria-label="Favourites"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.8 4.7a5.2 5.2 0 0 0-7.4 0L12 6.1l-1.4-1.4a5.2 5.2 0 0 0-7.4 7.4l1.4 1.4L12 21l7.4-7.5 1.4-1.4a5.2 5.2 0 0 0 0-7.4Z"/></svg></a>
+            </nav>
+            <details class="mobile-menu">
+                <summary class="menu-toggle" aria-label="Toggle navigation" aria-controls="mobile-navigation"><span></span><span></span><span></span></summary>
+                <div class="mobile-panel" id="mobile-navigation">
+                    <nav aria-label="Mobile navigation"><a href="#works">Works</a><a href="#about">About</a><a href="#services">Services</a><a href="#journal">Journal</a><a href="#contact">Contact</a></nav>
+                    <a class="button button-primary" href="#contact">Contact us</a>
+                    <a class="mobile-favourite" href="#works"><span>♡</span> Favourites</a>
+                    <div class="mobile-contacts"><a href="mailto:hello@keepsake.studio">hello@keepsake.studio</a><span>+1 212 555 0148</span>
+                        <div class="social-links"><a href="#contact" aria-label="Instagram">ig</a><a href="#contact" aria-label="Dribbble">dr</a><a href="#contact" aria-label="Behance">be</a></div>
+                    </div>
+                </div>
+            </details>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="hero" id="top">
+            <div class="container hero-content">
+                <p class="eyebrow">Independent creative studio</p>
+                <h1>We make things<br>with <span>meaning.</span></h1>
+                <p class="hero-copy">We are a small creative studio helping good people build brands, digital experiences and stories worth keeping.</p>
+                <div class="hero-actions"><a class="button button-primary" href="#works">See our works <span aria-hidden="true">↗</span></a><a class="button button-outline" href="#contact">Get in touch</a></div>
+            </div>
+            <div class="hero-decoration" aria-hidden="true"><span class="deco-circle"></span><span class="deco-line"></span><span class="deco-word">K.</span></div>
+        </section>
+
+        <section class="section works-section" id="works">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">Selected projects</p>
+                        <h2>Our awesome works <i></i></h2>
+                    </div>
+                    <p class="section-intro">A collection of identities, ideas and digital things made with care.</p>
+                </div>
+                <div class="portfolio-filtering" aria-label="Filter projects">
+                    <input class="filter-radio" type="radio" name="work-filter" id="filter-all" checked><input class="filter-radio" type="radio" name="work-filter" id="filter-branding"><input class="filter-radio" type="radio" name="work-filter" id="filter-identity">
+                    <input class="filter-radio" type="radio" name="work-filter" id="filter-print"><input class="filter-radio" type="radio" name="work-filter" id="filter-web"><input class="filter-radio" type="radio" name="work-filter" id="filter-motion">
+                    <div class="portfolio-controls"><label for="filter-all">All</label><label for="filter-branding">Branding</label><label for="filter-identity">Identity</label><label for="filter-print">Print</label><label for="filter-web">Web</label><label for="filter-motion">Motion</label></div>
+                    <div class="portfolio-grid">
+                        <article class="work-card" data-category="branding identity">
+                            <a href="#contact" aria-label="View North botanical studio project"><img src="images/work-01.png" width="900" height="700" alt="Abstract green and cream North botanical studio brand artwork"><span class="work-overlay"><span class="plus">+</span><strong>North Botanical</strong><i></i><small>Branding / Identity</small></span>
+                            </a>
+                        </article>
+                        <article class="work-card" data-category="identity print">
+                            <a href="#contact" aria-label="View Muse beauty project"><img src="images/work-02.png" width="900" height="700" alt="Pink and burgundy Muse beauty brand artwork"><span class="work-overlay"><span class="plus">+</span><strong>Muse Beauty</strong><i></i><small>Identity / Print</small></span>
+                            </a>
+                        </article>
+                        <article class="work-card" data-category="branding web">
+                            <a href="#contact" aria-label="View Field market project"><img src="images/work-03.png" width="900" height="700" alt="Green Field organic market graphic identity"><span class="work-overlay"><span class="plus">+</span><strong>Field Market</strong><i></i><small>Branding / Web</small></span>
+                            </a>
+                        </article>
+                        <article class="work-card" data-category="print motion">
+                            <a href="#contact" aria-label="View Noir magazine project"><img src="images/work-04.png" width="900" height="700" loading="lazy" alt="Lavender and cream Noir culture magazine artwork"><span class="work-overlay"><span class="plus">+</span><strong>Noir Magazine</strong><i></i><small>Print / Motion</small></span>
+                            </a>
+                        </article>
+                        <article class="work-card" data-category="branding identity">
+                            <a href="#contact" aria-label="View Forma objects project"><img src="images/work-05.png" width="900" height="700" loading="lazy" alt="Warm coral Forma design objects artwork"><span class="work-overlay"><span class="plus">+</span><strong>Forma Objects</strong><i></i><small>Branding / Identity</small></span>
+                            </a>
+                        </article>
+                        <article class="work-card" data-category="web motion">
+                            <a href="#contact" aria-label="View Tide coffee project"><img src="images/work-06.png" width="900" height="700" loading="lazy" alt="Teal and golden Tide coffee roasters artwork"><span class="work-overlay"><span class="plus">+</span><strong>Tide Coffee</strong><i></i><small>Web / Motion</small></span>
+                            </a>
+                        </article>
+                        <article class="work-card" data-category="print identity">
+                            <a href="#contact" aria-label="View Sunday paper goods project"><img src="images/work-07.png" width="900" height="700" loading="lazy" alt="Neutral Sunday paper goods brand artwork"><span class="work-overlay"><span class="plus">+</span><strong>Sunday Paper</strong><i></i><small>Print / Identity</small></span>
+                            </a>
+                        </article>
+                        <article class="work-card" data-category="branding motion">
+                            <a href="#contact" aria-label="View Kin creative project"><img src="images/work-08.png" width="900" height="700" loading="lazy" alt="Lilac Kin creative community brand artwork"><span class="work-overlay"><span class="plus">+</span><strong>Kin Community</strong><i></i><small>Branding / Motion</small></span>
+                            </a>
+                        </article>
+                        <article class="work-card" data-category="web branding">
+                            <a href="#contact" aria-label="View Atelier fashion project"><img src="images/work-09.png" width="900" height="700" loading="lazy" alt="Earthy Atelier fashion house brand artwork"><span class="work-overlay"><span class="plus">+</span><strong>Atelier Studio</strong><i></i><small>Web / Branding</small></span>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+                <div class="works-more"><a class="button button-outline" href="#works">Load more works <span aria-hidden="true">＋</span></a></div>
+            </div>
+        </section>
+
+        <section class="cta-band" id="about">
+            <div class="container cta-inner">
+                <p class="eyebrow">Have a good idea?</p>
+                <h2>Would you love to work with us?</h2><a class="button button-primary" href="#contact">Contact us <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v13H3zM3 7l9 7 9-7"/></svg></a></div>
+        </section>
+
+        <section class="section services-section" id="services">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">What we are good at</p>
+                        <h2>What do we do <i></i></h2>
+                    </div>
+                    <p class="section-intro">From the first sketch to the final little detail, we make the whole thing feel right.</p>
+                </div>
+                <div class="services-grid">
+                    <article class="service">
+                        <div class="service-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><path d="M15 45 45 15l5 5-30 30-8 3 3-8Z"/><path d="m37 23 5 5M12 12h14M12 20h8M42 48h12"/></svg></div>
+                        <h3>Creative design</h3>
+                        <p>We find the visual language that gives your idea a clear and memorable voice.</p>
+                    </article>
+                    <article class="service">
+                        <div class="service-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="20"/><path d="M32 12v40M12 32h40M18 18l28 28M46 18 18 46"/></svg></div>
+                        <h3>Brand identity</h3>
+                        <p>Thoughtful strategy and visual systems that make your brand feel like itself.</p>
+                    </article>
+                    <article class="service">
+                        <div class="service-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="13" y="12" width="38" height="40"/><path d="M20 22h24M20 30h24M20 38h15M20 46h20"/></svg></div>
+                        <h3>Print & editorial</h3>
+                        <p>Beautifully considered printed pieces, from packaging to publications.</p>
+                    </article>
+                    <article class="service">
+                        <div class="service-icon"><svg viewBox="0 0 64 64" aria-hidden="true"><rect x="10" y="13" width="44" height="31"/><path d="M24 52h16M32 44v8M18 21h28M20 28h12"/></svg></div>
+                        <h3>Web development</h3>
+                        <p>Useful, responsive digital experiences that are a pleasure to explore.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats-section">
+            <div class="container stats-grid">
+                <div class="stat"><strong>120</strong><span>Projects completed</span></div>
+                <div class="stat"><strong>85</strong><span>Happy clients</span></div>
+                <div class="stat"><strong>12</strong><span>Years of experience</span></div>
+                <div class="stat"><strong>18</strong><span>Design awards</span></div>
+            </div>
+        </section>
+
+        <section class="section clients-section">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">Good company</p>
+                        <h2>Clients & kind words <i></i></h2>
+                    </div>
+                </div>
+                <div class="client-logos" aria-label="Selected clients"><span>HORIZON</span><span>morrow.</span><span>atelier <b>8</b></span><span>GOODCO</span><span>STUDIO/ONE</span><span>flora</span></div>
+                <figure class="testimonial"><span class="quote-mark" aria-hidden="true">“</span>
+                    <blockquote>“Keepsake understood what we wanted to say before we had the words for it. The process was thoughtful, collaborative and the result feels unmistakably us.”</blockquote>
+                    <figcaption><span class="avatar">AM</span><span><strong>Anna Miller</strong><small>Founder, Morrow Studio</small></span></figcaption>
+                    <div class="slider-dots" aria-label="Testimonial 1 of 3"><span class="active"></span><span></span><span></span></div>
+                </figure>
+            </div>
+        </section>
+
+        <section class="section journal-section" id="journal">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow">Notes from the studio</p>
+                        <h2>From the journal <i></i></h2>
+                    </div><a class="text-link" href="#journal">View all articles ↗</a></div>
+                <div class="journal-grid">
+                    <article class="journal-card"><img src="images/Thumb-1.png" width="500" height="500" loading="lazy" alt="Editorial artwork about visual identity">
+                        <div class="journal-content">
+                            <p class="meta">12 June 2026 <span>·</span> Design</p>
+                            <h3>The quiet power of a clear visual identity</h3>
+                            <p>Why the strongest brands often say more with less — and how to make every detail count.</p><a href="#contact">Read more <span>↗</span></a></div>
+                    </article>
+                    <article class="journal-card"><img src="images/Thumb-2.png" width="500" height="500" loading="lazy" alt="Editorial artwork about the creative process">
+                        <div class="journal-content">
+                            <p class="meta">28 May 2026 <span>·</span> Studio</p>
+                            <h3>How we turn a first idea into a real brand</h3>
+                            <p>A look at the conversations, sketches and decisions behind a thoughtful identity.</p><a href="#contact">Read more <span>↗</span></a></div>
+                    </article>
+                    <article class="journal-card"><img src="images/Thumb-3.png" width="500" height="500" loading="lazy" alt="Editorial artwork about colour">
+                        <div class="journal-content">
+                            <p class="meta">09 May 2026 <span>·</span> Inspiration</p>
+                            <h3>A little colour theory for everyday work</h3>
+                            <p>Simple ways to build a palette that feels balanced, distinctive and full of character.</p><a href="#contact">Read more <span>↗</span></a></div>
+                    </article>
+                    <article class="journal-card"><img src="images/Thumb-4.png" width="500" height="500" loading="lazy" alt="Editorial artwork about the design process">
+                        <div class="journal-content">
+                            <p class="meta">22 April 2026 <span>·</span> Process</p>
+                            <h3>Behind the scenes: building better stories</h3>
+                            <p>Good design starts with curiosity. Here is how we keep asking better questions.</p><a href="#contact">Read more <span>↗</span></a></div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-links">
+                    <div>
+                        <h2>Studio</h2><a href="#about">About us</a><a href="#works">Our works</a><a href="#journal">Journal</a><a href="#contact">Contact</a></div>
+                    <div>
+                        <h2>Services</h2><a href="#services">Creative design</a><a href="#services">Brand identity</a><a href="#services">Print & editorial</a><a href="#services">Web development</a></div>
+                </div>
+                <section class="newsletter" aria-labelledby="newsletter-title">
+                    <p class="eyebrow">A good note, now and then</p>
+                    <h2 id="newsletter-title">Stay in the loop</h2>
+                    <p>Ideas, studio news and things we think are worth sharing.</p>
+                    <input class="success-toggle" type="checkbox" id="preview-success"><label class="preview-label" for="preview-success">Preview success state</label>
+                    <form class="newsletter-form" action="#contact" method="get"><label class="visually-hidden" for="newsletter-email">Your email address</label><input id="newsletter-email" name="email" type="email" placeholder="Your email address" autocomplete="email" required aria-describedby="newsletter-error">
+                        <p class="form-error" id="newsletter-error">Please enter a valid email address.</p><label class="consent"><input type="checkbox" name="consent" required><span>I agree to receive occasional updates.</span></label><button class="button button-primary" type="submit">Subscribe <span aria-hidden="true">↗</span></button></form>
+                    <p class="newsletter-success" role="status">Thank you! You are on the list.</p>
+                </section>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Keepsake Studio. All rights reserved.</p>
+                <div class="footer-socials"><a href="#contact" aria-label="Instagram">ig</a><a href="#contact" aria-label="Dribbble">dr</a><a href="#contact" aria-label="Behance">be</a></div>
+            </div>
+        </div>
+    </footer>
+    <a class="back-to-top" href="#top" aria-label="Back to top">↑</a>
+</body>
+
+</html>
