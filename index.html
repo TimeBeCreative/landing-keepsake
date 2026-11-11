@@ -56,7 +56,7 @@
                     </div>
                     <p class="section-intro">A collection of identities, ideas and digital things made with care.</p>
                 </div>
-                <div class="portfolio-filtering" aria-label="Filter projects">
+                <div class="portfolio-filtering" role="group" aria-label="Filter projects">
                     <input class="filter-radio" type="radio" name="work-filter" id="filter-all" checked><input class="filter-radio" type="radio" name="work-filter" id="filter-branding"><input class="filter-radio" type="radio" name="work-filter" id="filter-identity">
                     <input class="filter-radio" type="radio" name="work-filter" id="filter-print"><input class="filter-radio" type="radio" name="work-filter" id="filter-web"><input class="filter-radio" type="radio" name="work-filter" id="filter-motion">
                     <div class="portfolio-controls"><label for="filter-all">All</label><label for="filter-branding">Branding</label><label for="filter-identity">Identity</label><label for="filter-print">Print</label><label for="filter-web">Web</label><label for="filter-motion">Motion</label></div>
@@ -64,38 +64,47 @@
                         <article class="work-card" data-category="branding identity">
                             <a href="#contact" aria-label="View North botanical studio project"><img src="images/work-01.png" width="900" height="700" alt="Abstract green and cream North botanical studio brand artwork"><span class="work-overlay"><span class="plus">+</span><strong>North Botanical</strong><i></i><small>Branding / Identity</small></span>
                             </a>
+                            <h3 class="visually-hidden">North Botanical</h3>
                         </article>
                         <article class="work-card" data-category="identity print">
                             <a href="#contact" aria-label="View Muse beauty project"><img src="images/work-02.png" width="900" height="700" alt="Pink and burgundy Muse beauty brand artwork"><span class="work-overlay"><span class="plus">+</span><strong>Muse Beauty</strong><i></i><small>Identity / Print</small></span>
                             </a>
+                            <h3 class="visually-hidden">Muse Beauty</h3>
                         </article>
                         <article class="work-card" data-category="branding web">
                             <a href="#contact" aria-label="View Field market project"><img src="images/work-03.png" width="900" height="700" alt="Green Field organic market graphic identity"><span class="work-overlay"><span class="plus">+</span><strong>Field Market</strong><i></i><small>Branding / Web</small></span>
                             </a>
+                            <h3 class="visually-hidden">Field Market</h3>
                         </article>
                         <article class="work-card" data-category="print motion">
                             <a href="#contact" aria-label="View Noir magazine project"><img src="images/work-04.png" width="900" height="700" loading="lazy" alt="Lavender and cream Noir culture magazine artwork"><span class="work-overlay"><span class="plus">+</span><strong>Noir Magazine</strong><i></i><small>Print / Motion</small></span>
                             </a>
+                            <h3 class="visually-hidden">Noir Magazine</h3>
                         </article>
                         <article class="work-card" data-category="branding identity">
                             <a href="#contact" aria-label="View Forma objects project"><img src="images/work-05.png" width="900" height="700" loading="lazy" alt="Warm coral Forma design objects artwork"><span class="work-overlay"><span class="plus">+</span><strong>Forma Objects</strong><i></i><small>Branding / Identity</small></span>
                             </a>
+                            <h3 class="visually-hidden">Forma Objects</h3>
                         </article>
                         <article class="work-card" data-category="web motion">
                             <a href="#contact" aria-label="View Tide coffee project"><img src="images/work-06.png" width="900" height="700" loading="lazy" alt="Teal and golden Tide coffee roasters artwork"><span class="work-overlay"><span class="plus">+</span><strong>Tide Coffee</strong><i></i><small>Web / Motion</small></span>
                             </a>
+                            <h3 class="visually-hidden">Tide Coffee</h3>
                         </article>
                         <article class="work-card" data-category="print identity">
                             <a href="#contact" aria-label="View Sunday paper goods project"><img src="images/work-07.png" width="900" height="700" loading="lazy" alt="Neutral Sunday paper goods brand artwork"><span class="work-overlay"><span class="plus">+</span><strong>Sunday Paper</strong><i></i><small>Print / Identity</small></span>
                             </a>
+                            <h3 class="visually-hidden">Sunday Paper</h3>
                         </article>
                         <article class="work-card" data-category="branding motion">
                             <a href="#contact" aria-label="View Kin creative project"><img src="images/work-08.png" width="900" height="700" loading="lazy" alt="Lilac Kin creative community brand artwork"><span class="work-overlay"><span class="plus">+</span><strong>Kin Community</strong><i></i><small>Branding / Motion</small></span>
                             </a>
+                            <h3 class="visually-hidden">Kin Community</h3>
                         </article>
                         <article class="work-card" data-category="web branding">
                             <a href="#contact" aria-label="View Atelier fashion project"><img src="images/work-09.png" width="900" height="700" loading="lazy" alt="Earthy Atelier fashion house brand artwork"><span class="work-overlay"><span class="plus">+</span><strong>Atelier Studio</strong><i></i><small>Web / Branding</small></span>
                             </a>
+                            <h3 class="visually-hidden">Atelier Studio</h3>
                         </article>
                     </div>
                 </div>
@@ -143,7 +152,8 @@
             </div>
         </section>
 
-        <section class="stats-section">
+        <section class="stats-section" aria-labelledby="stats-heading">
+            <h2 id="stats-heading" class="visually-hidden">Studio statistics</h2>
             <div class="container stats-grid">
                 <div class="stat"><strong>120</strong><span>Projects completed</span></div>
                 <div class="stat"><strong>85</strong><span>Happy clients</span></div>
@@ -160,11 +170,11 @@
                         <h2>Clients & kind words <i></i></h2>
                     </div>
                 </div>
-                <div class="client-logos" aria-label="Selected clients"><span>HORIZON</span><span>morrow.</span><span>atelier <b>8</b></span><span>GOODCO</span><span>STUDIO/ONE</span><span>flora</span></div>
+                <div class="client-logos" role="group" aria-label="Selected clients"><span>HORIZON</span><span>morrow.</span><span>atelier <b>8</b></span><span>GOODCO</span><span>STUDIO/ONE</span><span>flora</span></div>
                 <figure class="testimonial"><span class="quote-mark" aria-hidden="true">“</span>
                     <blockquote>“Keepsake understood what we wanted to say before we had the words for it. The process was thoughtful, collaborative and the result feels unmistakably us.”</blockquote>
-                    <figcaption><span class="avatar">AM</span><span><strong>Anna Miller</strong><small>Founder, Morrow Studio</small></span></figcaption>
-                    <div class="slider-dots" aria-label="Testimonial 1 of 3"><span class="active"></span><span></span><span></span></div>
+                    <div class="slider-dots" role="group" aria-label="Testimonial 1 of 3" style="order: 2;"><span class="active"></span><span></span><span></span></div>
+                    <figcaption style="order: 1;"><span class="avatar">AM</span><span><strong>Anna Miller</strong><small>Founder, Morrow Studio</small></span></figcaption>
                 </figure>
             </div>
         </section>
